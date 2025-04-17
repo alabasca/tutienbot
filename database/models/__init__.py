@@ -1,12 +1,7 @@
-# database/models/__init__.py
-from .user_model import User
-from .item_model import Item, Equipment, Consumable, Material, Treasure
-from .sect_model import Sect
-from .monster_model import Monster, Boss
+from .user_model import UserModel
+from .sect_model import SectModel
+from .item_model import ItemModel
+from .monster_model import MonsterModel
+from .quest_model import QuestModel  # Thêm dòng này
 
-__all__ = [
-    'User',
-    'Item', 'Equipment', 'Consumable', 'Material', 'Treasure',
-    'Sect',
-    'Monster', 'Boss'
-]
+__all__ = ['UserModel', 'SectModel', 'ItemModel', 'MonsterModel', 'QuestModel']

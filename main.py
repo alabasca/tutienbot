@@ -93,6 +93,30 @@ async def on_voice_state_update(member, before, after):
         from modules.core.cultivation import end_voice_tracking
         await end_voice_tracking(bot, member, before.channel)
 
+@bot.event
+async def on_monster_kill(user_id, monster_level):
+    """Chuyển tiếp sự kiện giết quái vật đến các module"""
+    bot.dispatch('monster_kill', user_id, monster_level)
+
+@bot.event
+async def on_item_collect(user_id, item_id, quantity):
+    """Chuyển tiếp sự kiện thu thập vật phẩm đến các module"""
+    bot.dispatch('item_collect', user_id, item_id, quantity)
+
+@bot.event
+async def on_cultivation(user_id, seconds):
+    """Chuyển tiếp sự kiện tu luyện đến các module"""
+    bot.dispatch('cultivation', user_id, seconds)
+
+@bot.event
+async def on_sect_contribution(user_id, amount):
+    """Chuyển tiếp sự kiện đóng góp môn phái đến các module"""
+    bot.dispatch('sect_contribution', user_id, amount)
+
+@bot.event
+async def on_pvp_win(user_id):
+    """Chuyển tiếp sự kiện thắng PvP đến các module"""
+    bot.dispatch('pvp_win', user_id)
 
 # Chạy bot
 if __name__ == "__main__":
