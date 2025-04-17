@@ -1,0 +1,319 @@
+{
+  "monsters": [
+    {
+      "id": 1,
+      "name": "Yêu Lang",
+      "description": "Sói yêu sống trong rừng sâu, có khả năng phun lửa yếu",
+      "level": 1,
+      "health": 100,
+      "attack": 15,
+      "defense": 5,
+      "exp_reward": 10,
+      "linh_thach_min": 5,
+      "linh_thach_max": 15,
+      "element": "fire",
+      "skills": ["basic_attack", "fire_breath"],
+      "drop_rate": 0.3,
+      "drops": [
+        {"item_id": "healing_potion", "chance": 0.2},
+        {"item_id": "wolf_fang", "chance": 0.1}
+      ],
+      "min_realm": 0,
+      "zone": "forest"
+    },
+    {
+      "id": 2,
+      "name": "Hắc Hổ",
+      "description": "Hổ có lông đen như mực, sức mạnh vượt trội so với hổ thường",
+      "level": 3,
+      "health": 150,
+      "attack": 25,
+      "defense": 10,
+      "exp_reward": 20,
+      "linh_thach_min": 10,
+      "linh_thach_max": 25,
+      "element": "metal",
+      "skills": ["basic_attack", "claw_strike"],
+      "drop_rate": 0.4,
+      "drops": [
+        {"item_id": "strength_potion", "chance": 0.15},
+        {"item_id": "tiger_claw", "chance": 0.1}
+      ],
+      "min_realm": 1,
+      "zone": "mountain"
+    },
+    {
+      "id": 3,
+      "name": "Độc Xà",
+      "description": "Rắn có vảy xanh lục, nọc độc của nó có thể làm tan chảy sắt thép",
+      "level": 5,
+      "health": 200,
+      "attack": 30,
+      "defense": 15,
+      "exp_reward": 30,
+      "linh_thach_min": 15,
+      "linh_thach_max": 35,
+      "element": "wood",
+      "skills": ["basic_attack", "poison_bite"],
+      "drop_rate": 0.5,
+      "drops": [
+        {"item_id": "poison_essence", "chance": 0.25},
+        {"item_id": "snake_scale", "chance": 0.15}
+      ],
+      "min_realm": 2,
+      "zone": "swamp"
+    },
+    {
+      "id": 4,
+      "name": "Thiết Giáp Thú",
+      "description": "Quái thú có bộ giáp tự nhiên cứng như thép, sống ở vùng núi đá",
+      "level": 8,
+      "health": 250,
+      "attack": 35,
+      "defense": 25,
+      "exp_reward": 45,
+      "linh_thach_min": 20,
+      "linh_thach_max": 50,
+      "element": "earth",
+      "skills": ["basic_attack", "rock_throw"],
+      "drop_rate": 0.4,
+      "drops": [
+        {"item_id": "iron_scale", "chance": 0.3},
+        {"item_id": "defense_potion", "chance": 0.1}
+      ],
+      "min_realm": 3,
+      "zone": "mountain"
+    },
+    {
+      "id": 5,
+      "name": "U Linh",
+      "description": "Linh hồn không thể siêu thoát, có thể đi xuyên qua vật thể",
+      "level": 10,
+      "health": 300,
+      "attack": 40,
+      "defense": 20,
+      "exp_reward": 60,
+      "linh_thach_min": 30,
+      "linh_thach_max": 70,
+      "element": "dark",
+      "skills": ["basic_attack", "soul_drain"],
+      "drop_rate": 0.45,
+      "drops": [
+        {"item_id": "spirit_essence", "chance": 0.2},
+        {"item_id": "ghost_silk", "chance": 0.1}
+      ],
+      "min_realm": 4,
+      "zone": "graveyard"
+    },
+    {
+      "id": 6,
+      "name": "Hỏa Kỳ Lân",
+      "description": "Kỳ lân với bộ lông rực lửa, có thể phun ra ngọn lửa nóng đến 1000 độ",
+      "level": 12,
+      "health": 350,
+      "attack": 50,
+      "defense": 30,
+      "exp_reward": 80,
+      "linh_thach_min": 40,
+      "linh_thach_max": 90,
+      "element": "fire",
+      "skills": ["basic_attack", "fire_breath", "flame_charge"],
+      "drop_rate": 0.5,
+      "drops": [
+        {"item_id": "fire_crystal", "chance": 0.2},
+        {"item_id": "unicorn_horn", "chance": 0.05}
+      ],
+      "min_realm": 5,
+      "zone": "volcano"
+    },
+    {
+      "id": 7,
+      "name": "Bạch Cốt Ma",
+      "description": "Bộ xương được ma khí điều khiển, có trí thông minh và biết sử dụng vũ khí",
+      "level": 15,
+      "health": 400,
+      "attack": 60,
+      "defense": 35,
+      "exp_reward": 100,
+      "linh_thach_min": 50,
+      "linh_thach_max": 110,
+      "element": "dark",
+      "skills": ["basic_attack", "bone_spear", "death_aura"],
+      "drop_rate": 0.55,
+      "drops": [
+        {"item_id": "bone_fragment", "chance": 0.25},
+        {"item_id": "soul_crystal", "chance": 0.1}
+      ],
+      "min_realm": 6,
+      "zone": "ruins"
+    },
+    {
+      "id": 8,
+      "name": "Thâm Hải Chi Long",
+      "description": "Rồng sống trong vực sâu của biển, có thể điều khiển nước và gây ra bão tố",
+      "level": 18,
+      "health": 500,
+      "attack": 70,
+      "defense": 40,
+      "exp_reward": 130,
+      "linh_thach_min": 60,
+      "linh_thach_max": 140,
+      "element": "water",
+      "skills": ["basic_attack", "water_cannon", "tsunami"],
+      "drop_rate": 0.6,
+      "drops": [
+        {"item_id": "dragon_scale", "chance": 0.15},
+        {"item_id": "water_pearl", "chance": 0.05}
+      ],
+      "min_realm": 7,
+      "zone": "ocean"
+    },
+    {
+      "id": 9,
+      "name": "Huyết Yêu",
+      "description": "Quái vật hình thành từ máu của vạn vật, có thể biến đổi hình dạng",
+      "level": 20,
+      "health": 600,
+      "attack": 80,
+      "defense": 50,
+      "exp_reward": 160,
+      "linh_thach_min": 70,
+      "linh_thach_max": 170,
+      "element": "dark",
+      "skills": ["basic_attack", "blood_drain", "blood_spike"],
+      "drop_rate": 0.65,
+      "drops": [
+        {"item_id": "blood_essence", "chance": 0.2},
+        {"item_id": "transformation_scroll", "chance": 0.05}
+      ],
+      "min_realm": 8,
+      "zone": "blood_marsh"
+    },
+    {
+      "id": 10,
+      "name": "Thiên Ma",
+      "description": "Ma vật từ thiên ngoại, có sức mạnh siêu việt và trí tuệ cao",
+      "level": 25,
+      "health": 700,
+      "attack": 90,
+      "defense": 60,
+      "exp_reward": 200,
+      "linh_thach_min": 80,
+      "linh_thach_max": 200,
+      "element": "void",
+      "skills": ["basic_attack", "void_strike", "chaos_blast"],
+      "drop_rate": 0.7,
+      "drops": [
+        {"item_id": "demon_heart", "chance": 0.1},
+        {"item_id": "void_crystal", "chance": 0.03}
+      ],
+      "min_realm": 9,
+      "zone": "void_realm"
+    },
+    {
+      "id": 11,
+      "name": "Phong Ma",
+      "description": "Quái vật hình thành từ gió lốc, cơ thể gần như vô hình",
+      "level": 14,
+      "health": 380,
+      "attack": 55,
+      "defense": 25,
+      "exp_reward": 90,
+      "linh_thach_min": 45,
+      "linh_thach_max": 100,
+      "element": "wind",
+      "skills": ["basic_attack", "wind_slash", "tornado"],
+      "drop_rate": 0.5,
+      "drops": [
+        {"item_id": "wind_essence", "chance": 0.2},
+        {"item_id": "speed_potion", "chance": 0.1}
+      ],
+      "min_realm": 6,
+      "zone": "sky_peak"
+    },
+    {
+      "id": 12,
+      "name": "Lôi Điểu",
+      "description": "Chim sấm sét, từng cú vỗ cánh tạo ra tia sét",
+      "level": 16,
+      "health": 420,
+      "attack": 65,
+      "defense": 30,
+      "exp_reward": 110,
+      "linh_thach_min": 55,
+      "linh_thach_max": 120,
+      "element": "thunder",
+      "skills": ["basic_attack", "lightning_strike", "thunder_roar"],
+      "drop_rate": 0.55,
+      "drops": [
+        {"item_id": "thunder_feather", "chance": 0.15},
+        {"item_id": "lightning_core", "chance": 0.05}
+      ],
+      "min_realm": 7,
+      "zone": "thunder_plains"
+    },
+    {
+      "id": 13,
+      "name": "Thạch Yêu",
+      "description": "Quái vật hình thành từ đá cổ đại, cứng cáp và bền bỉ",
+      "level": 13,
+      "health": 450,
+      "attack": 45,
+      "defense": 50,
+      "exp_reward": 85,
+      "linh_thach_min": 42,
+      "linh_thach_max": 95,
+      "element": "earth",
+      "skills": ["basic_attack", "rock_smash", "stone_spike"],
+      "drop_rate": 0.6,
+      "drops": [
+        {"item_id": "earth_crystal", "chance": 0.25},
+        {"item_id": "ancient_core", "chance": 0.08}
+      ],
+      "min_realm": 6,
+      "zone": "ancient_mountains"
+    },
+    {
+      "id": 14,
+      "name": "Quang Tinh",
+      "description": "Sinh vật ánh sáng, cơ thể trong suốt có thể phát sáng",
+      "level": 15,
+      "health": 320,
+      "attack": 70,
+      "defense": 20,
+      "exp_reward": 95,
+      "linh_thach_min": 47,
+      "linh_thach_max": 105,
+      "element": "light",
+      "skills": ["basic_attack", "light_beam", "blinding_flash"],
+      "drop_rate": 0.5,
+      "drops": [
+        {"item_id": "light_crystal", "chance": 0.2},
+        {"item_id": "prismatic_core", "chance": 0.05}
+      ],
+      "min_realm": 7,
+      "zone": "light_realm"
+    },
+    {
+      "id": 15,
+      "name": "Hàn Băng Thú",
+      "description": "Thú băng giá, hơi thở có thể đóng băng mọi thứ",
+      "level": 17,
+      "health": 460,
+      "attack": 55,
+      "defense": 45,
+      "exp_reward": 115,
+      "linh_thach_min": 57,
+      "linh_thach_max": 125,
+      "element": "water",
+      "skills": ["basic_attack", "frost_breath", "ice_spike"],
+      "drop_rate": 0.55,
+      "drops": [
+        {"item_id": "ice_crystal", "chance": 0.2},
+        {"item_id": "freezing_core", "chance": 0.07}
+      ],
+      "min_realm": 7,
+      "zone": "frozen_wasteland"
+    }
+  ]
+}

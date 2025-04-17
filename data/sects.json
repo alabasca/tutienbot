@@ -1,0 +1,569 @@
+{
+  "sects": [
+    {
+      "id": "thienkiemtong",
+      "name": "Thiên Kiếm Tông",
+      "description": "Môn phái đứng đầu chính đạo, chuyên tu luyện kiếm pháp, đặt trọng tâm vào sự chính trực và công lý.",
+      "type": "sword",
+      "min_level": 1,
+      "max_members": 100,
+      "base_location": "Thiên Kiếm Phong",
+      "specialization": "sword_techniques",
+      "founder": "Kiếm Tổ Thiên Hành",
+      "establishment_year": "5000 năm trước",
+      "alignment": "righteous",
+      "ranks": [
+        {
+          "id": 1,
+          "name": "Tạp Vụ Đệ Tử",
+          "description": "Đệ tử mới gia nhập, chưa được truyền thụ kiếm pháp, chỉ làm các công việc tạp vụ.",
+          "permissions": ["join_common_areas", "basic_training"]
+        },
+        {
+          "id": 2,
+          "name": "Ngoại Môn Đệ Tử",
+          "description": "Đệ tử đã được chính thức công nhận, bắt đầu học kiếm pháp cơ bản.",
+          "min_realm": 2,
+          "permissions": ["join_training_areas", "basic_sword_techniques"]
+        },
+        {
+          "id": 3,
+          "name": "Nội Môn Đệ Tử",
+          "description": "Đệ tử xuất sắc, được truyền thụ kiếm pháp nội môn.",
+          "min_realm": 5,
+          "permissions": ["join_inner_areas", "mid_training", "advanced_sword_techniques"]
+        },
+        {
+          "id": 4,
+          "name": "Kiếm Sứ",
+          "description": "Đệ tử tinh anh, được giao nhiệm vụ trừng ác dương thiện.",
+          "min_realm": 8,
+          "permissions": ["righteous_missions", "high_training", "sword_mastery"]
+        },
+        {
+          "id": 5,
+          "name": "Kiếm Hộ",
+          "description": "Tu sĩ cao cấp, phụ trách bảo vệ môn phái.",
+          "min_realm": 12,
+          "permissions": ["protection_duty", "teach_disciples", "heritage_access"]
+        },
+        {
+          "id": 6,
+          "name": "Trưởng Lão",
+          "description": "Tu sĩ đạt đến cảnh giới cao, phụ trách quản lý một khu vực của môn phái.",
+          "min_realm": 15,
+          "permissions": ["manage_area", "advanced_techniques", "resource_allocation"]
+        },
+        {
+          "id": 7,
+          "name": "Đại Trưởng Lão",
+          "description": "Người đứng đầu một nhánh trong môn phái.",
+          "min_realm": 18,
+          "permissions": ["manage_branch", "core_techniques", "sect_decisions"]
+        },
+        {
+          "id": 8,
+          "name": "Tông Chủ",
+          "description": "Người đứng đầu môn phái, nắm giữ mọi quyền lực cao nhất.",
+          "min_realm": 22,
+          "permissions": ["all"]
+        }
+      ],
+      "techniques": [
+        {
+          "id": "thienluongkiem",
+          "name": "Thiên Lương Kiếm Pháp",
+          "description": "Kiếm pháp cơ bản của môn phái, chú trọng vào sự chính trực.",
+          "min_rank": 2,
+          "element": "light",
+          "power": 40
+        },
+        {
+          "id": "thienhanhdao",
+          "name": "Thiên Hành Đạo",
+          "description": "Thân pháp cao cấp, giúp người tu luyện di chuyển nhanh như tia chớp.",
+          "min_rank": 3,
+          "element": "wind",
+          "power": 50
+        },
+        {
+          "id": "thienkiemquyetdao",
+          "name": "Thiên Kiếm Quyết Đạo",
+          "description": "Kiếm pháp tinh thâm, mỗi kiếm đều mang theo ý chí chính nghĩa.",
+          "min_rank": 4,
+          "element": "light",
+          "power": 70
+        },
+        {
+          "id": "vutrukiemdao",
+          "name": "Vũ Trụ Kiếm Đạo",
+          "description": "Kiếm pháp tối cao, mô phỏng quy luật vũ trụ, có thể chém đứt mọi thứ kể cả không gian.",
+          "min_rank": 7,
+          "element": "void",
+          "power": 100
+        }
+      ],
+      "resources": [
+        {
+          "id": "thienhan",
+          "name": "Thiên Hàn Tuyền",
+          "description": "Suối nước lạnh cực hàn, giúp rèn luyện ý chí và tâm tính.",
+          "production": ["resolve_enhancement"]
+        },
+        {
+          "id": "kiemtruchvien",
+          "name": "Kiếm Trúc Viên",
+          "description": "Rừng trúc đặc biệt, nơi các đệ tử rèn luyện kiếm pháp.",
+          "production": ["sword_training"]
+        },
+        {
+          "id": "thienkiemku",
+          "name": "Thiên Kiếm Khố",
+          "description": "Kho báu của môn phái, chứa vô số thần kiếm và bí tịch quý hiếm.",
+          "production": ["magic_swords", "sword_manuals"]
+        }
+      ]
+    },
+    {
+      "id": "doantinhcoc",
+      "name": "Đoạn Tình Cốc",
+      "description": "Thánh địa tu luyện của nữ tu, cự tuyệt tình yêu nam nữ, chuyên tu luyện độc công và ảo thuật.",
+      "type": "poison",
+      "min_level": 1,
+      "max_members": 50,
+      "base_location": "Đoạn Tình Cốc",
+      "specialization": "poison_techniques",
+      "founder": "Đoạn Tình Tiên Tử",
+      "establishment_year": "4000 năm trước",
+      "alignment": "neutral",
+      "gender_restriction": "female",
+      "ranks": [
+        {
+          "id": 1,
+          "name": "Tập Dịch Đệ Tử",
+          "description": "Đệ tử mới gia nhập, đang thời kỳ thử thách.",
+          "permissions": ["join_common_areas", "basic_training"]
+        },
+        {
+          "id": 2,
+          "name": "Tu Dịch Đệ Tử",
+          "description": "Đệ tử chính thức, bắt đầu học các công pháp cơ bản.",
+          "min_realm": 2,
+          "permissions": ["join_training_areas", "basic_poison_techniques"]
+        },
+        {
+          "id": 3,
+          "name": "Tâm Dịch Đệ Tử",
+          "description": "Đệ tử đã đoạn tình, được truyền thụ độc công cao cấp.",
+          "min_realm": 5,
+          "permissions": ["join_inner_areas", "mid_training", "advanced_poison_techniques"]
+        },
+        {
+          "id": 4,
+          "name": "Độc Sứ",
+          "description": "Đệ tử tinh anh, chuyên thực hiện nhiệm vụ bên ngoài.",
+          "min_realm": 9,
+          "permissions": ["sect_missions", "high_training", "poison_mastery"]
+        },
+        {
+          "id": 5,
+          "name": "Tình Sứ",
+          "description": "Tu sĩ cao cấp, chuyên sử dụng mỹ sắc để mê hoặc và trừng phạt nam tu.",
+          "min_realm": 13,
+          "permissions": ["charm_techniques", "teach_disciples", "illusion_mastery"]
+        },
+        {
+          "id": 6,
+          "name": "Cốc Chủ",
+          "description": "Người đứng đầu môn phái, nắm giữ bí kíp Đoạn Tình Kinh.",
+          "min_realm": 20,
+          "permissions": ["all"]
+        }
+      ],
+      "techniques": [
+        {
+          "id": "doantinhcong",
+          "name": "Đoạn Tình Công",
+          "description": "Công pháp cơ bản, giúp đoạn tuyệt tình cảm nam nữ để tăng cường công lực.",
+          "min_rank": 2,
+          "element": "wood",
+          "power": 40
+        },
+        {
+          "id": "bachhuongdoc",
+          "name": "Bách Hương Độc",
+          "description": "Công pháp độc, sử dụng trăm loại hương hoa độc hại.",
+          "min_rank": 3,
+          "element": "poison",
+          "power": 60
+        },
+        {
+          "id": "myhoangthu",
+          "name": "Mỹ Hoàng Thu",
+          "description": "Công pháp mê hoặc, sử dụng sắc đẹp để khống chế đối phương.",
+          "min_rank": 4,
+          "element": "charm",
+          "power": 70
+        },
+        {
+          "id": "doantinhkinh",
+          "name": "Đoạn Tình Kinh",
+          "description": "Bí kíp tối cao, khi tu luyện đến cực hạn có thể khiến người khác đoạn tình chỉ bằng một ánh mắt.",
+          "min_rank": 6,
+          "element": "soul",
+          "power": 95
+        }
+      ],
+      "resources": [
+        {
+          "id": "docanvien",
+          "name": "Độc Ẩn Viên",
+          "description": "Vườn độc, trồng hàng ngàn loại thực vật độc hại.",
+          "production": ["poison_ingredients", "medicine_herbs"]
+        },
+        {
+          "id": "huongdaishan",
+          "name": "Hương Đài Sơn",
+          "description": "Nơi sản xuất các loại hương liệu đặc biệt của môn phái.",
+          "production": ["charm_incense", "poison_powder"]
+        },
+        {
+          "id": "tinhtuyenvien",
+          "name": "Tình Tuyền Viên",
+          "description": "Suối nước đặc biệt, giúp rửa sạch tình cảm và tăng cường tu vi.",
+          "production": ["emotional_cleansing", "beauty_enhancement"]
+        }
+      ]
+    },
+    {
+      "id": "huyetmagiao",
+      "name": "Huyết Ma Giáo",
+      "description": "Môn phái tà đạo lớn nhất thiên hạ, chuyên tu luyện ma công, sử dụng máu tươi và linh hồn để tăng cường sức mạnh.",
+      "type": "demonic",
+      "min_level": 3,
+      "max_members": 80,
+      "base_location": "Huyết Ma Cung",
+      "specialization": "blood_magic",
+      "founder": "Huyết Ma Tổ Sư",
+      "establishment_year": "3000 năm trước",
+      "alignment": "evil",
+      "ranks": [
+        {
+          "id": 1,
+          "name": "Huyết Sát Đồ",
+          "description": "Tín đồ mới gia nhập, phải trải qua nghi thức uống máu.",
+          "permissions": ["join_common_areas", "basic_training"]
+        },
+        {
+          "id": 2,
+          "name": "Huyết Ma Đồ",
+          "description": "Tín đồ chính thức, được truyền thụ ma công cơ bản.",
+          "min_realm": 4,
+          "permissions": ["join_training_areas", "basic_blood_techniques"]
+        },
+        {
+          "id": 3,
+          "name": "Huyết Sứ",
+          "description": "Tín đồ trung thành, thực hiện các nhiệm vụ đẫm máu cho giáo phái.",
+          "min_realm": 7,
+          "permissions": ["sect_missions", "mid_training", "blood_cultivation"]
+        },
+        {
+          "id": 4,
+          "name": "Huyết Hộ",
+          "description": "Tín đồ tinh anh, phụ trách bảo vệ các địa điểm quan trọng của giáo phái.",
+          "min_realm": 10,
+          "permissions": ["protection_duty", "high_training", "soul_harvesting"]
+        },
+        {
+          "id": 5,
+          "name": "Huyết Ma Vương",
+          "description": "Cường giả có tu vi cao, lãnh đạo một khu vực của giáo phái.",
+          "min_realm": 14,
+          "permissions": ["manage_area", "teach_disciples", "advanced_techniques"]
+        },
+        {
+          "id": 6,
+          "name": "Huyết Tôn",
+          "description": "Người đứng đầu một chi phái lớn.",
+          "min_realm": 17,
+          "permissions": ["manage_branch", "core_techniques", "sect_decisions"]
+        },
+        {
+          "id": 7,
+          "name": "Giáo Chủ",
+          "description": "Người đứng đầu toàn giáo phái, nắm giữ bí kíp Huyết Ma Kinh.",
+          "min_realm": 21,
+          "permissions": ["all"]
+        }
+      ],
+      "techniques": [
+        {
+          "id": "huyettiencong",
+          "name": "Huyết Tiễn Công",
+          "description": "Công pháp cơ bản, sử dụng máu tươi để tạo ra những mũi tên máu sắc bén.",
+          "min_rank": 2,
+          "element": "blood",
+          "power": 45
+        },
+        {
+          "id": "huyetmabienthe",
+          "name": "Huyết Ma Biến Thể",
+          "description": "Công pháp biến hóa, tăng cường thể chất bằng máu tươi.",
+          "min_rank": 3,
+          "element": "blood",
+          "power": 60
+        },
+        {
+          "id": "vonhanhuyetthu",
+          "name": "Vô Nhẫn Huyết Thủ",
+          "description": "Công pháp tàn bạo, có thể hút cạn máu đối thủ chỉ bằng một chưởng.",
+          "min_rank": 5,
+          "element": "blood",
+          "power": 75
+        },
+        {
+          "id": "huyetmakinh",
+          "name": "Huyết Ma Kinh",
+          "description": "Bí kíp tối cao, có thể khống chế máu và linh hồn của vạn vật.",
+          "min_rank": 7,
+          "element": "blood",
+          "power": 100
+        }
+      ],
+      "resources": [
+        {
+          "id": "huyettinhdan",
+          "name": "Huyết Tinh Đàn",
+          "description": "Đàn tế lễ, nơi thực hiện các nghi thức ma đạo.",
+          "production": ["blood_essence", "soul_crystals"]
+        },
+        {
+          "id": "amnhienthuong",
+          "name": "Âm Nhiên Thương",
+          "description": "Kho chứa các sinh vật bị giam cầm để lấy máu tươi.",
+          "production": ["blood_supply", "experimentation"]
+        },
+        {
+          "id": "huyttinhluyendan",
+          "name": "Huyết Tinh Luyện Đan Tháp",
+          "description": "Nơi luyện chế các loại đan dược từ máu và linh hồn.",
+          "production": ["blood_pills", "demonic_potions"]
+        }
+      ]
+    },
+    {
+      "id": "tuyetnguyetcung",
+      "name": "Tuyết Nguyệt Cung",
+      "description": "Thánh địa ẩn tu trên đỉnh núi tuyết, chuyên tu luyện băng thuộc tính và nguyệt thuộc tính, nổi tiếng với sự thanh cao.",
+      "type": "elemental",
+      "min_level": 2,
+      "max_members": 60,
+      "base_location": "Tuyết Nguyệt Phong",
+      "specialization": "ice_moon_magic",
+      "founder": "Tuyết Nguyệt Tiên Tử",
+      "establishment_year": "4500 năm trước",
+      "alignment": "neutral",
+      "ranks": [
+        {
+          "id": 1,
+          "name": "Tuệ Tuyết Đệ Tử",
+          "description": "Đệ tử mới gia nhập, đang thích nghi với môi trường băng giá.",
+          "permissions": ["join_common_areas", "basic_training"]
+        },
+        {
+          "id": 2,
+          "name": "Linh Tuyết Đệ Tử",
+          "description": "Đệ tử chính thức, bắt đầu học các công pháp băng cơ bản.",
+          "min_realm": 3,
+          "permissions": ["join_training_areas", "basic_ice_techniques"]
+        },
+        {
+          "id": 3,
+          "name": "Nguyệt Hoa Đệ Tử",
+          "description": "Đệ tử đã lĩnh ngộ nguyệt thuộc tính, được truyền thụ công pháp cao cấp.",
+          "min_realm": 6,
+          "permissions": ["join_inner_areas", "mid_training", "moon_techniques"]
+        },
+        {
+          "id": 4,
+          "name": "Tuyết Nguyệt Sứ",
+          "description": "Đệ tử tinh anh, đại diện môn phái giao lưu với bên ngoài.",
+          "min_realm": 10,
+          "permissions": ["sect_missions", "high_training", "ice_moon_mastery"]
+        },
+        {
+          "id": 5,
+          "name": "Tuyết Nguyệt Trưởng Lão",
+          "description": "Tu sĩ cao cấp, phụ trách đào tạo đệ tử.",
+          "min_realm": 15,
+          "permissions": ["manage_area", "teach_disciples", "advanced_techniques"]
+        },
+        {
+          "id": 6,
+          "name": "Cung Chủ",
+          "description": "Người đứng đầu môn phái, nắm giữ bí kíp Tuyết Nguyệt Đồ Kinh.",
+          "min_realm": 19,
+          "permissions": ["all"]
+        }
+      ],
+      "techniques": [
+        {
+          "id": "tuyethoathuthu",
+          "name": "Tuyết Hoa Thu Thủ",
+          "description": "Công pháp cơ bản, sử dụng băng tuyết để tấn công và phòng thủ.",
+          "min_rank": 2,
+          "element": "ice",
+          "power": 40
+        },
+        {
+          "id": "hannguyetcong",
+          "name": "Hàn Nguyệt Công",
+          "description": "Công pháp hấp thu linh khí của ánh trăng để tăng cường sức mạnh.",
+          "min_rank": 3,
+          "element": "moon",
+          "power": 55
+        },
+        {
+          "id": "tuyetnguyetluyen",
+          "name": "Tuyết Nguyệt Luyện Thần Quyết",
+          "description": "Công pháp kết hợp băng và nguyệt thuộc tính, tăng cường cả thể chất lẫn tâm thần.",
+          "min_rank": 4,
+          "element": "ice_moon",
+          "power": 70
+        },
+        {
+          "id": "tuyetnguyetdokinh",
+          "name": "Tuyết Nguyệt Đồ Kinh",
+          "description": "Bí kíp tối cao, có thể kiểm soát băng tuyết và ánh trăng trong phạm vi rộng lớn.",
+          "min_rank": 6,
+          "element": "ice_moon",
+          "power": 95
+        }
+      ],
+      "resources": [
+        {
+          "id": "tuyetnguyet",
+          "name": "Tuyết Nguyệt Đài",
+          "description": "Đài cao nhìn trăng, nơi hấp thu tinh hoa của ánh trăng.",
+          "production": ["moon_essence", "spiritual_enhancement"]
+        },
+        {
+          "id": "tuvantuyetthanh",
+          "name": "Tử Vân Tuyết Thánh",
+          "description": "Khu vực có tuyết tím vĩnh cửu, chứa năng lượng băng giá tinh khiết.",
+          "production": ["ice_crystals", "cold_resistance"]
+        },
+        {
+          "id": "tuyetnguyetthuthuvien",
+          "name": "Tuyết Nguyệt Thư Thư Viện",
+          "description": "Thư viện chứa kinh sách quý hiếm về băng và nguyệt thuộc tính.",
+          "production": ["ice_techniques", "moon_manuals"]
+        }
+      ]
+    },
+    {
+      "id": "hongtranlvkhach",
+      "name": "Hồng Trần Lữ Khách",
+      "description": "Không phải môn phái chính thống mà là tập hợp của những tu sĩ độc hành, không màng danh lợi, chuyên giúp đỡ người khó khăn.",
+      "type": "independent",
+      "min_level": 1,
+      "max_members": 30,
+      "base_location": "Phiêu Diêu Các",
+      "specialization": "versatile",
+      "founder": "Phiêu Diêu Tử",
+      "establishment_year": "1000 năm trước",
+      "alignment": "good",
+      "ranks": [
+        {
+          "id": 1,
+          "name": "Tầm Đạo Giả",
+          "description": "Người mới gia nhập, đang tìm kiếm con đường tu tiên riêng.",
+          "permissions": ["join_common_areas", "basic_training"]
+        },
+        {
+          "id": 2,
+          "name": "Hành Giả",
+          "description": "Đã tìm ra con đường tu luyện phù hợp, bắt đầu du hành thiên hạ.",
+          "min_realm": 3,
+          "permissions": ["travel_support", "basic_resources"]
+        },
+        {
+          "id": 3,
+          "name": "Lữ Giả",
+          "description": "Tu sĩ có kinh nghiệm, chuyên giúp đỡ người khác và trải nghiệm hồng trần.",
+          "min_realm": 7,
+          "permissions": ["help_missions", "mid_training", "experience_sharing"]
+        },
+        {
+          "id": 4,
+          "name": "Đạo Giả",
+          "description": "Tu sĩ đã đạt đến cảnh giới cao, thấu hiểu đạo lý của trời đất.",
+          "min_realm": 12,
+          "permissions": ["teach_disciples", "philosophy_guidance", "high_resources"]
+        },
+        {
+          "id": 5,
+          "name": "Phiêu Diêu Giả",
+          "description": "Cảnh giới tối cao, siêu thoát khỏi mọi ràng buộc thế tục.",
+          "min_realm": 18,
+          "permissions": ["all"]
+        }
+      ],
+      "techniques": [
+        {
+          "id": "hongtranguongcong",
+          "name": "Hồng Trần Dưỡng Công",
+          "description": "Công pháp cơ bản, hấp thu linh khí từ trải nghiệm và cảm xúc hồng trần.",
+          "min_rank": 1,
+          "element": "life",
+          "power": 35
+        },
+        {
+          "id": "phieudieoquyet",
+          "name": "Phiêu Diêu Quyết",
+          "description": "Thân pháp nhẹ nhàng, tự tại như mây gió.",
+          "min_rank": 2,
+          "element": "wind",
+          "power": 50
+        },
+        {
+          "id": "ngudaihoa",
+          "name": "Ngộ Đại Hòa",
+          "description": "Công pháp cao cấp, hòa hợp với vạn vật, hiểu được tiếng nói của thiên nhiên.",
+          "min_rank": 3,
+          "element": "nature",
+          "power": 70
+        },
+        {
+          "id": "truanhnhanthe",
+          "name": "Trứ Ẩn Nhân Thể",
+          "description": "Bí kíp tối cao, ẩn mình trong hồng trần nhưng vượt thoát khỏi hồng trần.",
+          "min_rank": 5,
+          "element": "void",
+          "power": 90
+        }
+      ],
+      "resources": [
+        {
+          "id": "phieudieolou",
+          "name": "Phiêu Diêu Lâu",
+          "description": "Tòa lầu tự do, nơi tụ họp của các lữ khách từ khắp nơi.",
+          "production": ["experience_sharing", "information_exchange"]
+        },
+        {
+          "id": "hongtranthuthanh",
+          "name": "Hồng Trần Thư Thánh",
+          "description": "Thư viện ghi lại trải nghiệm và kiến thức từ vạn nẻo đường.",
+          "production": ["knowledge", "life_experience"]
+        },
+        {
+          "id": "phantinh",
+          "name": "Phàm Tỉnh",
+          "description": "Giếng nước đặc biệt, uống vào sẽ hiểu được nỗi khổ của người phàm.",
+          "production": ["empathy_enhancement", "compassion_training"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "realms": [
+    {
+      "id": 0,
+      "name": "Phàm Nhân",
+      "description": "Khởi đầu của con đường tu tiên, chưa có linh khí trong cơ thể.",
+      "exp_required": 0,
+      "bonus": {
+        "attack": 0,
+        "defense": 0,
+        "health": 100
+      }
+    },
+    {
+      "id": 1,
+      "name": "Luyện Khí Tầng 1",
+      "description": "Bắt đầu tích lũy linh khí, cảm nhận được linh lực.",
+      "exp_required": 100,
+      "bonus": {
+        "attack": 5,
+        "defense": 3,
+        "health": 120
+      }
+    },
+    {
+      "id": 2,
+      "name": "Luyện Khí Tầng 2",
+      "description": "Linh khí dần hình thành trong cơ thể.",
+      "exp_required": 250,
+      "bonus": {
+        "attack": 10,
+        "defense": 6,
+        "health": 140
+      }
+    },
+    {
+      "id": 3,
+      "name": "Luyện Khí Tầng 3",
+      "description": "Có thể điều khiển linh khí đơn giản.",
+      "exp_required": 450,
+      "bonus": {
+        "attack": 15,
+        "defense": 9,
+        "health": 160
+      }
+    },
+    {
+      "id": 4,
+      "name": "Luyện Khí Tầng 4",
+      "description": "Linh khí bắt đầu tuần hoàn trong cơ thể.",
+      "exp_required": 700,
+      "bonus": {
+        "attack": 20,
+        "defense": 12,
+        "health": 180
+      }
+    },
+    {
+      "id": 5,
+      "name": "Luyện Khí Tầng 5",
+      "description": "Linh khí có thể lan tỏa khắp cơ thể.",
+      "exp_required": 1000,
+      "bonus": {
+        "attack": 25,
+        "defense": 15,
+        "health": 200
+      }
+    },
+    {
+      "id": 6,
+      "name": "Luyện Khí Tầng 6",
+      "description": "Có thể sử dụng linh khí bên ngoài cơ thể.",
+      "exp_required": 1500,
+      "bonus": {
+        "attack": 30,
+        "defense": 18,
+        "health": 220
+      }
+    },
+    {
+      "id": 7,
+      "name": "Luyện Khí Tầng 7",
+      "description": "Linh khí bắt đầu chuyển hóa nội tạng.",
+      "exp_required": 2100,
+      "bonus": {
+        "attack": 35,
+        "defense": 21,
+        "health": 240
+      }
+    },
+    {
+      "id": 8,
+      "name": "Luyện Khí Tầng 8",
+      "description": "Có thể cảm nhận thiên địa linh khí từ xa.",
+      "exp_required": 3000,
+      "bonus": {
+        "attack": 40,
+        "defense": 24,
+        "health": 260
+      }
+    },
+    {
+      "id": 9,
+      "name": "Luyện Khí Tầng 9",
+      "description": "Linh khí hình thành đan điền, sẵn sàng đột phá lên Trúc Cơ.",
+      "exp_required": 4000,
+      "bonus": {
+        "attack": 45,
+        "defense": 27,
+        "health": 280
+      }
+    },
+    {
+      "id": 10,
+      "name": "Trúc Cơ Sơ Kỳ",
+      "description": "Đan điền hình thành, có thể tụ tập linh lực từ thiên địa.",
+      "exp_required": 6000,
+      "bonus": {
+        "attack": 60,
+        "defense": 40,
+        "health": 400
+      }
+    },
+    {
+      "id": 11,
+      "name": "Trúc Cơ Trung Kỳ",
+      "description": "Đan điền vững chắc, linh lực dồi dào.",
+      "exp_required": 9000,
+      "bonus": {
+        "attack": 75,
+        "defense": 50,
+        "health": 500
+      }
+    },
+    {
+      "id": 12,
+      "name": "Trúc Cơ Viên Mãn",
+      "description": "Đan điền viên mãn, sẵn sàng cho việc kết Linh Đan.",
+      "exp_required": 13000,
+      "bonus": {
+        "attack": 90,
+        "defense": 60,
+        "health": 600
+      }
+    },
+    {
+      "id": 13,
+      "name": "Kim Đan Sơ Kỳ",
+      "description": "Linh Đan hình thành, linh khí bắt đầu ngưng tụ thành dạng đặc.",
+      "exp_required": 20000,
+      "bonus": {
+        "attack": 120,
+        "defense": 80,
+        "health": 800
+      }
+    },
+    {
+      "id": 14,
+      "name": "Kim Đan Trung Kỳ",
+      "description": "Linh Đan dần hoàn thiện, có thể nhả ra linh lực mạnh mẽ.",
+      "exp_required": 30000,
+      "bonus": {
+        "attack": 150,
+        "defense": 100,
+        "health": 1000
+      }
+    },
+    {
+      "id": 15,
+      "name": "Kim Đan Viên Mãn",
+      "description": "Linh Đan viên mãn, bắt đầu có thể ngưng tụ Nguyên Anh.",
+      "exp_required": 45000,
+      "bonus": {
+        "attack": 180,
+        "defense": 120,
+        "health": 1200
+      }
+    },
+    {
+      "id": 16,
+      "name": "Nguyên Anh Sơ Kỳ",
+      "description": "Nguyên Anh hình thành, có thể rời khỏi cơ thể trong phạm vi nhỏ.",
+      "exp_required": 70000,
+      "bonus": {
+        "attack": 250,
+        "defense": 160,
+        "health": 1600
+      }
+    },
+    {
+      "id": 17,
+      "name": "Nguyên Anh Trung Kỳ",
+      "description": "Nguyên Anh vững chắc, có thể rời khỏi cơ thể trong khoảng cách xa.",
+      "exp_required": 100000,
+      "bonus": {
+        "attack": 300,
+        "defense": 200,
+        "health": 2000
+      }
+    },
+    {
+      "id": 18,
+      "name": "Nguyên Anh Viên Mãn",
+      "description": "Nguyên Anh viên mãn, sẵn sàng cho việc Hóa Thần.",
+      "exp_required": 150000,
+      "bonus": {
+        "attack": 350,
+        "defense": 240,
+        "health": 2400
+      }
+    },
+    {
+      "id": 19,
+      "name": "Hóa Thần Sơ Kỳ",
+      "description": "Nguyên Thần hình thành, bắt đầu chuyển hóa cơ thể phàm thành thể chất thần tiên.",
+      "exp_required": 230000,
+      "bonus": {
+        "attack": 500,
+        "defense": 350,
+        "health": 3500
+      }
+    },
+    {
+      "id": 20,
+      "name": "Hóa Thần Trung Kỳ",
+      "description": "Nguyên Thần mạnh mẽ, cơ thể dần chuyển hóa thành tiên thể.",
+      "exp_required": 350000,
+      "bonus": {
+        "attack": 600,
+        "defense": 450,
+        "health": 4500
+      }
+    },
+    {
+      "id": 21,
+      "name": "Hóa Thần Viên Mãn",
+      "description": "Nguyên Thần viên mãn, cơ thể gần như hoàn toàn chuyển hóa thành tiên thể.",
+      "exp_required": 500000,
+      "bonus": {
+        "attack": 700,
+        "defense": 550,
+        "health": 5500
+      }
+    },
+    {
+      "id": 22,
+      "name": "Luyện Hư Sơ Kỳ",
+      "description": "Có thể luyện hóa thiên địa hư không, tạo ra không gian riêng.",
+      "exp_required": 800000,
+      "bonus": {
+        "attack": 1000,
+        "defense": 800,
+        "health": 8000
+      }
+    },
+    {
+      "id": 23,
+      "name": "Luyện Hư Trung Kỳ",
+      "description": "Không gian riêng dần vững chắc, có thể chứa vạn vật.",
+      "exp_required": 1200000,
+      "bonus": {
+        "attack": 1300,
+        "defense": 1000,
+        "health": 10000
+      }
+    },
+    {
+      "id": 24,
+      "name": "Luyện Hư Viên Mãn",
+      "description": "Không gian riêng viên mãn, sẵn sàng cho Đại Thừa Kỳ.",
+      "exp_required": 1800000,
+      "bonus": {
+        "attack": 1600,
+        "defense": 1200,
+        "health": 12000
+      }
+    },
+    {
+      "id": 25,
+      "name": "Đại Thừa Sơ Kỳ",
+      "description": "Bắt đầu lĩnh ngộ thiên đạo, có thể điều khiển một phần quy luật thiên địa.",
+      "exp_required": 3000000,
+      "bonus": {
+        "attack": 2500,
+        "defense": 2000,
+        "health": 20000
+      }
+    },
+    {
+      "id": 26,
+      "name": "Đại Thừa Trung Kỳ",
+      "description": "Lĩnh ngộ sâu sắc thiên đạo, có thể điều khiển nhiều quy luật thiên địa.",
+      "exp_required": 5000000,
+      "bonus": {
+        "attack": 3500,
+        "defense": 3000,
+        "health": 30000
+      }
+    },
+    {
+      "id": 27,
+      "name": "Đại Thừa Viên Mãn",
+      "description": "Lĩnh ngộ viên mãn thiên đạo, sẵn sàng trở thành Diễn Chủ Vạn Giới.",
+      "exp_required": 8000000,
+      "bonus": {
+        "attack": 5000,
+        "defense": 4000,
+        "health": 40000
+      }
+    },
+    {
+      "id": 28,
+      "name": "Diễn Chủ Vạn Giới",
+      "description": "Đã lĩnh ngộ hoàn toàn thiên đạo, có thể sáng tạo và điều khiển thế giới riêng.",
+      "exp_required": 15000000,
+      "bonus": {
+        "attack": 10000,
+        "defense": 8000,
+        "health": 100000
+      }
+    }
+  ],
+  "skills": [
+    {
+      "id": "basic_attack",
+      "name": "Tấn Công Cơ Bản",
+      "description": "Tấn công cơ bản bằng linh lực",
+      "min_realm": 0,
+      "damage_multiplier": 1.0,
+      "cooldown": 0
+    },
+    {
+      "id": "linh_khi_quang",
+      "name": "Linh Khí Quang",
+      "description": "Phóng ra một tia sáng linh khí",
+      "min_realm": 3,
+      "damage_multiplier": 1.5,
+      "cooldown": 3
+    },
+    {
+      "id": "hoa_son_khi",
+      "name": "Hỏa Sơn Khí",
+      "description": "Triệu hồi ngọn lửa từ lòng đất tấn công đối thủ",
+      "min_realm": 6,
+      "damage_multiplier": 2.0,
+      "cooldown": 5
+    },
+    {
+      "id": "thuy_long_quyet",
+      "name": "Thủy Long Quyết",
+      "description": "Triệu hồi rồng nước tấn công kẻ địch",
+      "min_realm": 9,
+      "damage_multiplier": 2.5,
+      "cooldown": 8
+    },
+    {
+      "id": "kim_thien_quyet",
+      "name": "Kim Thiên Quyết",
+      "description": "Tạo ra hàng ngàn kiếm khí tấn công",
+      "min_realm": 12,
+      "damage_multiplier": 3.0,
+      "cooldown": 10
+    },
+    {
+      "id": "pho_thien_diep",
+      "name": "Phá Thiên Diệp",
+      "description": "Tạo ra lá bùa phá vỡ không gian tấn công đối thủ",
+      "min_realm": 15,
+      "damage_multiplier": 3.5,
+      "cooldown": 12
+    },
+    {
+      "id": "vo_thuong_quyet",
+      "name": "Vô Thượng Quyết",
+      "description": "Thi triển công pháp vô thượng, gây sát thương lớn",
+      "min_realm": 18,
+      "damage_multiplier": 4.0,
+      "cooldown": 15
+    },
+    {
+      "id": "than_ma_quyet",
+      "name": "Thần Ma Quyết",
+      "description": "Triệu hồi ảo ảnh thần ma tấn công đối thủ",
+      "min_realm": 21,
+      "damage_multiplier": 5.0,
+      "cooldown": 20
+    },
+    {
+      "id": "huu_khong_diep",
+      "name": "Hữu Không Diệp",
+      "description": "Điều khiển không gian tấn công đối thủ",
+      "min_realm": 24,
+      "damage_multiplier": 6.0,
+      "cooldown": 25
+    },
+    {
+      "id": "thuong_thien_quyet",
+      "name": "Thương Thiên Quyết",
+      "description": "Mượn lực lượng thiên đạo tấn công",
+      "min_realm": 27,
+      "damage_multiplier": 8.0,
+      "cooldown": 30
+    },
+    {
+      "id": "van_gioi_chu",
+      "name": "Vạn Giới Chú",
+      "description": "Sử dụng lực lượng của vạn giới tấn công đối thủ",
+      "min_realm": 28,
+      "damage_multiplier": 10.0,
+      "cooldown": 60
+    }
+  ],
+  "elements": [
+    {
+      "id": "fire",
+      "name": "Hỏa",
+      "description": "Nguyên tố lửa, mạnh mẽ và bộc phát",
+      "advantage": "wood",
+      "disadvantage": "water"
+    },
+    {
+      "id": "water",
+      "name": "Thủy",
+      "description": "Nguyên tố nước, mềm dẻo và linh hoạt",
+      "advantage": "fire",
+      "disadvantage": "earth"
+    },
+    {
+      "id": "earth",
+      "name": "Thổ",
+      "description": "Nguyên tố đất, vững chắc và kiên định",
+      "advantage": "water",
+      "disadvantage": "wood"
+    },
+    {
+      "id": "wood",
+      "name": "Mộc",
+      "description": "Nguyên tố gỗ, sinh trưởng và dẻo dai",
+      "advantage": "earth",
+      "disadvantage": "metal"
+    },
+    {
+      "id": "metal",
+      "name": "Kim",
+      "description": "Nguyên tố kim loại, sắc bén và cứng rắn",
+      "advantage": "wood",
+      "disadvantage": "fire"
+    },
+    {
+      "id": "light",
+      "name": "Quang",
+      "description": "Nguyên tố ánh sáng, thuần khiết và chính trực",
+      "advantage": "dark",
+      "disadvantage": "void"
+    },
+    {
+      "id": "dark",
+      "name": "Ám",
+      "description": "Nguyên tố bóng tối, bí ẩn và sâu thẳm",
+      "advantage": "void",
+      "disadvantage": "light"
+    },
+    {
+      "id": "void",
+      "name": "Hư Không",
+      "description": "Nguyên tố hư không, trừu tượng và vô hình",
+      "advantage": "light",
+      "disadvantage": "dark"
+    },
+    {
+      "id": "thunder",
+      "name": "Lôi",
+      "description": "Nguyên tố sấm sét, nhanh nhẹn và mãnh liệt",
+      "advantage": "water",
+      "disadvantage": "earth"
+    },
+    {
+      "id": "wind",
+      "name": "Phong",
+      "description": "Nguyên tố gió, tự do và khó lường",
+      "advantage": "earth",
+      "disadvantage": "fire"
+    }
+  ],
+  "special_abilities": [
+    {
+      "id": "meditation",
+      "name": "Thiền Định",
+      "description": "Tăng tốc độ tu luyện khi thiền định",
+      "min_realm": 1,
+      "effect": {"type": "exp_bonus", "value": 0.1}
+    },
+    {
+      "id": "flying",
+      "name": "Phi Hành",
+      "description": "Có thể bay lượn trên không trung",
+      "min_realm": 6,
+      "effect": {"type": "mobility", "value": 1}
+    },
+    {
+      "id": "water_walking",
+      "name": "Lăng Ba Vi Bộ",
+      "description": "Có thể đi trên mặt nước",
+      "min_realm": 4,
+      "effect": {"type": "mobility", "value": 1}
+    },
+    {
+      "id": "invisible",
+      "name": "Ẩn Thân",
+      "description": "Có thể ẩn mình khỏi tầm nhìn thường",
+      "min_realm": 9,
+      "effect": {"type": "stealth", "value": 1}
+    },
+    {
+      "id": "teleport",
+      "name": "Thuấn Di",
+      "description": "Có thể dịch chuyển tức thời trong phạm vi nhất định",
+      "min_realm": 13,
+      "effect": {"type": "mobility", "value": 2}
+    },
+    {
+      "id": "soul_sense",
+      "name": "Thần Thức",
+      "description": "Có thể cảm nhận linh hồn và năng lượng xung quanh",
+      "min_realm": 10,
+      "effect": {"type": "detection", "value": 1}
+    },
+    {
+      "id": "element_control",
+      "name": "Nguyên Tố Khống Chế",
+      "description": "Có thể điều khiển nguyên tố tự nhiên",
+      "min_realm": 16,
+      "effect": {"type": "element", "value": 1}
+    },
+    {
+      "id": "immortal_body",
+      "name": "Tiên Thể",
+      "description": "Cơ thể bất tử, không già, không bệnh",
+      "min_realm": 19,
+      "effect": {"type": "immortality", "value": 1}
+    },
+    {
+      "id": "space_control",
+      "name": "Không Gian Khống Chế",
+      "description": "Có thể điều khiển và biến đổi không gian",
+      "min_realm": 22,
+      "effect": {"type": "space", "value": 1}
+    },
+    {
+      "id": "time_control",
+      "name": "Thời Gian Khống Chế",
+      "description": "Có thể điều khiển và biến đổi thời gian",
+      "min_realm": 25,
+      "effect": {"type": "time", "value": 1}
+    },
+    {
+      "id": "world_creation",
+      "name": "Khai Thiên Tích Địa",
+      "description": "Có thể tạo ra thế giới riêng",
+      "min_realm": 28,
+      "effect": {"type": "creation", "value": 1}
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "items": [
+    {
+      "id": "healing_potion",
+      "name": "Thuốc Hồi Phục",
+      "description": "Hồi phục 50 HP khi sử dụng",
+      "type": "consumable",
+      "value": 50,
+      "price": 100,
+      "rarity": "common",
+      "effect": {"type": "heal", "amount": 50}
+    },
+    {
+      "id": "strength_potion",
+      "name": "Thuốc Tăng Lực",
+      "description": "Tăng tạm thời 20 điểm tấn công trong 30 phút",
+      "type": "consumable",
+      "value": 20,
+      "price": 200,
+      "rarity": "uncommon",
+      "effect": {"type": "buff_attack", "amount": 20, "duration": 1800}
+    },
+    {
+      "id": "defense_potion",
+      "name": "Thuốc Cứng Cáp",
+      "description": "Tăng tạm thời 20 điểm phòng thủ trong 30 phút",
+      "type": "consumable",
+      "value": 20,
+      "price": 200,
+      "rarity": "uncommon",
+      "effect": {"type": "buff_defense", "amount": 20, "duration": 1800}
+    },
+    {
+      "id": "experience_potion",
+      "name": "Thuốc Tu Tiên",
+      "description": "Tăng 100 điểm kinh nghiệm ngay lập tức",
+      "type": "consumable",
+      "value": 100,
+      "price": 500,
+      "rarity": "rare",
+      "effect": {"type": "exp", "amount": 100}
+    },
+    {
+      "id": "dragon_scale",
+      "name": "Vảy Rồng",
+      "description": "Vảy của một con rồng cổ đại, có thể dùng để rèn đồ hoặc luyện đan",
+      "type": "material",
+      "value": 0,
+      "price": 300,
+      "rarity": "uncommon",
+      "effect": {"type": "material", "crafting": ["armor", "potion"]}
+    },
+    {
+      "id": "dragon_heart",
+      "name": "Tim Rồng",
+      "description": "Tim của một con rồng cổ đại, chứa năng lượng mạnh mẽ",
+      "type": "material",
+      "value": 0,
+      "price": 1000,
+      "rarity": "rare",
+      "effect": {"type": "material", "crafting": ["weapon", "potion"]}
+    },
+    {
+      "id": "iron_sword",
+      "name": "Kiếm Sắt",
+      "description": "Kiếm sắt cơ bản, tăng 10 điểm tấn công",
+      "type": "weapon",
+      "value": 10,
+      "price": 500,
+      "rarity": "common",
+      "effect": {"type": "equip", "slot": "weapon", "attack": 10, "defense": 0}
+    },
+    {
+      "id": "steel_armor",
+      "name": "Giáp Thép",
+      "description": "Giáp thép cơ bản, tăng 15 điểm phòng thủ",
+      "type": "armor",
+      "value": 15,
+      "price": 600,
+      "rarity": "common",
+      "effect": {"type": "equip", "slot": "armor", "attack": 0, "defense": 15}
+    },
+    {
+      "id": "spirit_jade",
+      "name": "Ngọc Linh",
+      "description": "Viên ngọc chứa tinh hoa thiên địa, giúp tăng tốc tu luyện",
+      "type": "artifact",
+      "value": 0,
+      "price": 2000,
+      "rarity": "epic",
+      "effect": {"type": "passive", "exp_bonus": 0.1}
+    },
+    {
+      "id": "flying_sword",
+      "name": "Phi Kiếm",
+      "description": "Kiếm bay có thể điều khiển bằng ý nghĩ, tăng 30 điểm tấn công",
+      "type": "weapon",
+      "value": 30,
+      "price": 5000,
+      "rarity": "epic",
+      "effect": {"type": "equip", "slot": "weapon", "attack": 30, "defense": 0}
+    },
+    {
+      "id": "celestial_robe",
+      "name": "Thiên Y",
+      "description": "Áo choàng thêu hoa văn thiên thể, tăng 25 điểm phòng thủ",
+      "type": "armor",
+      "value": 25,
+      "price": 4000,
+      "rarity": "epic",
+      "effect": {"type": "equip", "slot": "armor", "attack": 0, "defense": 25}
+    },
+    {
+      "id": "poison_essence",
+      "name": "Tinh Chất Độc",
+      "description": "Tinh chất độc lấy từ Độc Xà, dùng để chế tạo vũ khí độc",
+      "type": "material",
+      "value": 0,
+      "price": 350,
+      "rarity": "uncommon",
+      "effect": {"type": "material", "crafting": ["weapon", "potion"]}
+    },
+    {
+      "id": "iron_scale",
+      "name": "Vảy Thiết Giáp",
+      "description": "Vảy cứng của Thiết Giáp Thú, dùng để chế tạo áo giáp",
+      "type": "material",
+      "value": 0,
+      "price": 400,
+      "rarity": "uncommon",
+      "effect": {"type": "material", "crafting": ["armor"]}
+    },
+    {
+      "id": "spirit_essence",
+      "name": "Tinh Chất Linh Hồn",
+      "description": "Tinh chất linh hồn từ U Linh, dùng để nâng cao khả năng tâm linh",
+      "type": "material",
+      "value": 0,
+      "price": 600,
+      "rarity": "rare",
+      "effect": {"type": "material", "crafting": ["artifact", "potion"]}
+    },
+    {
+      "id": "fire_crystal",
+      "name": "Hỏa Tinh",
+      "description": "Tinh thể lửa từ Hỏa Kỳ Lân, chứa năng lượng lửa mạnh mẽ",
+      "type": "material",
+      "value": 0,
+      "price": 800,
+      "rarity": "rare",
+      "effect": {"type": "material", "crafting": ["weapon", "artifact"]}
+    },
+    {
+      "id": "bone_fragment",
+      "name": "Mảnh Xương Bạch Cốt",
+      "description": "Mảnh xương từ Bạch Cốt Ma, chứa năng lượng tà ác",
+      "type": "material",
+      "value": 0,
+      "price": 700,
+      "rarity": "rare",
+      "effect": {"type": "material", "crafting": ["weapon", "artifact"]}
+    },
+    {
+      "id": "blood_essence",
+      "name": "Tinh Huyết",
+      "description": "Tinh huyết từ Huyết Yêu, có khả năng tăng cường sức mạnh",
+      "type": "material",
+      "value": 0,
+      "price": 900,
+      "rarity": "rare",
+      "effect": {"type": "material", "crafting": ["potion", "artifact"]}
+    },
+    {
+      "id": "demon_heart",
+      "name": "Ma Tâm",
+      "description": "Trái tim của Thiên Ma, chứa năng lượng ma đạo cực mạnh",
+      "type": "material",
+      "value": 0,
+      "price": 1500,
+      "rarity": "epic",
+      "effect": {"type": "material", "crafting": ["weapon", "artifact"]}
+    },
+    {
+      "id": "fox_tail",
+      "name": "Đuôi Cửu Vĩ",
+      "description": "Đuôi của Cửu Vĩ Yêu Hồ, chứa năng lượng huyễn hoặc",
+      "type": "material",
+      "value": 0,
+      "price": 2000,
+      "rarity": "epic",
+      "effect": {"type": "material", "crafting": ["artifact", "accessory"]}
+    },
+    {
+      "id": "fox_fur",
+      "name": "Lông Cửu Vĩ",
+      "description": "Lông của Cửu Vĩ Yêu Hồ, mềm mại và bền bỉ",
+      "type": "material",
+      "value": 0,
+      "price": 1200,
+      "rarity": "rare",
+      "effect": {"type": "material", "crafting": ["armor", "accessory"]}
+    },
+    {
+      "id": "demon_soul",
+      "name": "Ma Hồn",
+      "description": "Linh hồn của Ma Đế, chứa ý chí tà ác cực mạnh",
+      "type": "material",
+      "value": 0,
+      "price": 3000,
+      "rarity": "epic",
+      "effect": {"type": "material", "crafting": ["artifact", "weapon"]}
+    },
+    {
+      "id": "demon_horn",
+      "name": "Sừng Ma",
+      "description": "Sừng của Ma Đế, cứng như thép và sắc như dao",
+      "type": "material",
+      "value": 0,
+      "price": 2500,
+      "rarity": "epic",
+      "effect": {"type": "material", "crafting": ["weapon", "armor"]}
+    },
+    {
+      "id": "evil_core",
+      "name": "Tà Thần Tâm",
+      "description": "Lõi năng lượng từ Tà Thần, chứa sức mạnh hủy diệt",
+      "type": "material",
+      "value": 0,
+      "price": 5000,
+      "rarity": "legendary",
+      "effect": {"type": "material", "crafting": ["artifact", "weapon"]}
+    },
+    {
+      "id": "god_blood",
+      "name": "Thần Huyết",
+      "description": "Máu của Tà Thần, có thể tăng cường tu vi đáng kể",
+      "type": "consumable",
+      "value": 1000,
+      "price": 10000,
+      "rarity": "legendary",
+      "effect": {"type": "exp", "amount": 1000}
+    },
+    {
+      "id": "cosmic_essence",
+      "name": "Vũ Trụ Tinh Hoa",
+      "description": "Tinh hoa vũ trụ từ Thiên Ngoại Yêu Thi, chứa sức mạnh của nhiều thế giới",
+      "type": "material",
+      "value": 0,
+      "price": 20000,
+      "rarity": "legendary",
+      "effect": {"type": "material", "crafting": ["artifact", "weapon", "armor"]}
+    },
+    {
+      "id": "star_fragment",
+      "name": "Tinh Thạch",
+      "description": "Mảnh vỡ từ ngôi sao, chứa năng lượng vũ trụ thuần khiết",
+      "type": "material",
+      "value": 0,
+      "price": 15000,
+      "rarity": "legendary",
+      "effect": {"type": "material", "crafting": ["artifact", "weapon", "accessory"]}
+    },
+    {
+      "id": "great_healing_potion",
+      "name": "Đại Hoàn Đan",
+      "description": "Đan dược cao cấp, hồi phục 200 HP khi sử dụng",
+      "type": "consumable",
+      "value": 200,
+      "price": 500,
+      "rarity": "rare",
+      "effect": {"type": "heal", "amount": 200}
+    },
+    {
+      "id": "realm_breakthrough_pill",
+      "name": "Đột Phá Đan",
+      "description": "Đan dược quý hiếm giúp tăng cơ hội đột phá cảnh giới",
+      "type": "consumable",
+      "value": 500,
+      "price": 2000,
+      "rarity": "epic",
+      "effect": {"type": "exp", "amount": 500}
+    },
+    {
+      "id": "jade_pendant",
+      "name": "Ngọc Bội",
+      "description": "Ngọc bội phổ thông, tăng nhẹ sức mạnh",
+      "type": "accessory",
+      "value": 0,
+      "price": 800,
+      "rarity": "common",
+      "effect": {"type": "equip", "slot": "accessory", "attack": 5, "defense": 5}
+    },
+    {
+      "id": "spirit_ring",
+      "name": "Linh Hồn Nhẫn",
+      "description": "Nhẫn chứa linh hồn của một tu sĩ cổ đại",
+      "type": "accessory",
+      "value": 0,
+      "price": 3000,
+      "rarity": "epic",
+      "effect": {"type": "equip", "slot": "accessory", "attack": 15, "defense": 15, "exp_bonus": 0.05}
+    },
+    {
+      "id": "celestial_pill",
+      "name": "Tiên Đan",
+      "description": "Đan dược tiên giới, tăng đáng kể kinh nghiệm tu luyện",
+      "type": "consumable",
+      "value": 2000,
+      "price": 30000,
+      "rarity": "legendary",
+      "effect": {"type": "exp", "amount": 2000}
+    }
+  ]
+}
